@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<link rel="s" href="download.jpeg">
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>book store</title>
+
+</head>
+
+<body> 
+<div>
+    <h1> book store </h1>
+    <pre>this my <mark>book store</mark> , <b>welcome</b></pre>
+</div>
+<form  > 
+<div>
+    <label > user name </label>
+    <input type="text" 
+    required placeholder="intrer your name " 
+    name="user" 
+    value=" mohamed"
+    readonly 
+    >
+  
+</div>
+<br>
+<div>
+    <label >subject</label>
+    <input type="text" name="subject" autofocus >
+</div>
+<br>
+<div>
+    <label > password</label>
+    <input type="password"
+     required  
+     placeholder="write a complex password" 
+     name=" password"
+     minlength="8"
+     maxlength="20"
+     >
+</div>
+<br>
+<div>
+    <label >Email</label>
+    <input type="email" required name="email"  disabled value=" mohamed@"> 
+   
+</div>
+<br>
+<div>
+    <label > number</label>
+    <input type="number" min="0" max="100" name=" number" required>
+</div>
+<br>
+<div>
+    <label > range</label>
+    <input type="range" min="0" max="100" name=" number" value="0">
+</div>
+<br>
+<div>
+   
+    <input type="checkbox" name="box" value="read" id="re"> 
+    <label for="re">read</label>
+</div>
+
+<div>
+    
+    <input type="checkbox" name="box" value="write" id="wr">
+    <label for="wr">write</label>
+</div>
+<br>
+<div>
+    
+    
+    <input type="radio" name="radio" value="windows" id="wi" checked>
+    <label for="wi">windows</label>
+</div>
+<div>
+    
+    <input type="radio" name="radio" value="mac" id="mac">
+    <label for="mac">mac</label>
+</div>
+<div>
+    
+    <input type="radio" name="radio" value="linux" id="linux">
+    <label for="linux">linux</label>
+</div>
+<br>
+
+<label for="book">choose books</label>
+<select name="book" id="book">
+<optgroup label=" romantic books">
+   <option value="1">book1</option>
+   <option value="2">book2</option>
+   <option value="3">book3</option>
+</optgroup>
+<optgroup label=" police books">
+    <option value="4" selected>book4</option>
+    <option value="5">book5</option>
+    <option value="6">book6</option>
+ </optgroup>
+</select>
+<br>
+<br>
+<textarea name="text" id="text" cols="30" rows="10" placeholder=" write hear "></textarea>
+
+<hr>
+<div> 
+    <label for="file"> upload</label>
+<input type="file" id="file">
+</div>
+<br>
+<div>
+    <label > search</label>
+<input type="search">
+</div>
+<br>
+<div>
+    <label > link </label>
+<input type="url">
+</div>
+<br>
+<div>
+    <label > date </label>
+<input type="date">
+</div>
+<br>
+<div> 
+    <label >month </label>
+<input type="month">
+</div>
+<br>
+<div>
+    <label > time</label>
+<input type="time">
+</div>
+<br>
+<input list=" programming" name=" PROG">
+<datalist id=" programming">
+<option value=" c#">
+<option value=" java">
+<option value=" python">
+<option value=" c++">
+<option value=" php">
+ </datalist>
+<input type="submit" value="save">
+<input type="reset">
+</form>
+
+
+
+</body>
+</html>
