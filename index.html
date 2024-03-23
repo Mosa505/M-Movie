@@ -7,45 +7,24 @@
     <title>M | Movie</title>
    <style>
         body {
-    background-color: rgb(211, 203, 203);
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 0;
-}
+            background-color: rgb(221, 215, 215);
+            color: rgb(0, 0, 0);
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            margin: auto;
+        }
 
-#me{
-    margin:20px;
-}
-
-h1{
-    font-family: 'Courier New', Courier, monospace;
-
-}
-p{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-@media screen and (max-width: 768px) {
-    .container {
-        width: 100%;
-        padding: 0 10px;
-    }
-
-    p {
-        font-size: 16px;
-    }
-}
+        /* Media Query for smaller screens */
+        @media only screen and (max-width: 600px) {
+            .container {
+                width: 90%; /* Adjust as needed */
+                margin: auto;
+            }
+            .movie {
+                width: 90%; /* Adjust as needed */
+                margin: auto;
+            }
+        }
     </style>
 </head>
 <body>
